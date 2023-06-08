@@ -4,7 +4,6 @@ import { INumbers } from '../types';
 const router = Router();
 
 router.get('/', async (request: Request, response: Response) => {
-  console.log(request.ip);
   response.status(200).json({ text: 'Hello world!' });
 });
 
