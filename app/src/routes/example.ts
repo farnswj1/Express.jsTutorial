@@ -1,5 +1,5 @@
 import { Router, Request, Response } from 'express';
-import { INumbers } from '../types';
+import { INumbers } from 'types';
 
 const router = Router();
 

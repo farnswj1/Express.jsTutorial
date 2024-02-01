@@ -1,22 +1,15 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
-    "esModuleInterop": true,
-    "target": "es6",
+    "module": "ES2020",
+    "target": "ESNext",
     "strict": true,
     "noImplicitAny": true,
-    "moduleResolution": "node",
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "sourceMap": true,
     "outDir": "dist",
     "baseUrl": "src",
-    "paths": {
-      "*": [
-        "node_modules/*"
-      ]
-    }
   },
-  "include": [
-    "src/**/*"
-  ]
+  "include": ["src"]
 }
