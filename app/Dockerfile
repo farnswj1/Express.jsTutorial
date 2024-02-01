@@ -12,8 +12,8 @@ COPY package.json package-lock.json ./
 RUN npm install
 COPY . ./
 
-# setup the build
-RUN npm run build
+# run linting
+RUN npm run lint
 
 # run the server
 CMD ["npm", "start"]
